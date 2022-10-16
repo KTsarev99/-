@@ -7,3 +7,14 @@ int size = Convert.ToInt32(Console.ReadLine());
 string[] array = new string [size];
 int length = 3;
 int pos = 0;
+
+for(int i = 1; i<= size;i++)
+{
+ Console.WriteLine($"Введите {i}-й элемент: ");
+ string element = Convert.ToString(Console.ReadLine());
+ if (element.Length <= length)
+    {
+        array[pos] = element;
+        pos++;
+    }
+}
