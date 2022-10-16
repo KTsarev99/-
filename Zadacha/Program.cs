@@ -18,3 +18,9 @@ for(int i = 1; i<= size;i++)
         pos++;
     }
 }
+Console.WriteLine();
+
+for (int i = 0; i < array.Length; i++)
+{  
+    Console.Write(array[i]+ " ");
+}
